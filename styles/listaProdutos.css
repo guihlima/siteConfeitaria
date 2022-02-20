@@ -1,0 +1,40 @@
+body, html{
+    overflow-y: visible;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+}
+#section #cards{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+#cards .card{
+    background-color: #F8E0DE;
+    /* padding: 0 20px; */
+    width: 200px;
+    height: 320px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#cards .card img{
+    width: 100%;
+    height: 80%;
+    border-radius: 10px 10px 0 0;
+    margin-bottom: 10px;
+}
+
+#cards .card img:hover{
+    transition: .3s;
+    transform: scale(1.1, 1.1);
+}
+
+#cards #card__salgado{
+    width: 300px;
+    margin-top: 30px;
+}
